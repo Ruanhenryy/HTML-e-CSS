@@ -15,6 +15,7 @@ header{
    margin: 15px;
    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.484);
    border-bottom-right-radius: 15px;
+   border-top-left-radius: 15px;
 }
 
 h1{
@@ -33,19 +34,16 @@ h3{
     image-orientation: flip;
 }
 
-section{
+article{
     text-align: justify;
 }
-section#barraprincipal{
+nav{
     background-color: #139dff71;
     padding: 20px;
     border-radius: 10px 0px;
-
-
 }
 
-
-section#barraprincipal > a{
+nav > a{
     text-decoration: none;
     padding-left: 150px;
     font-weight: 900;
@@ -54,6 +52,12 @@ section#barraprincipal > a{
 
 main{
     margin: 15px;
+    text-align: center;
+    padding-inline: 200px;
+}
+
+main > article{
+    text-align: center;
 }
 
 .fundo-degrade{
@@ -78,13 +82,13 @@ td#lista>p{
 
 .noticias-do-momento{
     background-color: white;
-    text-align:justify;
+    text-align: justify;
     padding: 0%;
-    width: 1400px;
-    padding-left: 40px;
+    width: 1500px;
 }
 
 .conteudo{
+    margin: 0;
     padding-left: 30px;
     font-size: 1.5em;
 }
