@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+*{
+    margin: 0;   /*O * chama todas as tags, nesse caso é necessário pois todas as tags vem com margin ou padding coisas que atrapalham e é melhor fazer manualmente em cada teg*/
+    padding: 0;
+}
 :root{
     --cor1: #0140e19b;
     --cor2: #0065E0;
@@ -23,10 +27,8 @@ body{
 header{
    background-color: var(--cor1);
    padding-top: 8px;
-   margin: 15px;
    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.484);
    border-bottom-right-radius: 15px;
-   border-top-left-radius: 15px;
 }
 
 h1{
@@ -63,7 +65,6 @@ nav > a{
 }
 
 main{
-    background-color: ;
     margin: 15px;
     text-align: center;
     width: 1500px;
@@ -82,17 +83,18 @@ main > article{
     padding-left: 10px;
 }
 
+td#lista>p{
+    text-align: justify;
+    width: 800px;
+    margin-bottom: 50px;
+}
+
 td#lista{
     text-align: justify;
     font-size: 1.3em;
     height: 300px;
+    padding-left: 30px;
 }
-
-td#lista>p{
-    text-align: justify;
-    width: 800px;
-}
-
 
 .noticias-do-momento{
     background-color: white;
@@ -123,18 +125,23 @@ section > a > h2{
     margin: 0;
 }
 
-section > a{
+footer > section > a{
     text-decoration: none;
 }
 
-section > div{
+footer > section > div{
     font-size: 20px;
     padding-left: 20px;
     padding-bottom: 30px;
+    margin-top: 40px;
 }
 
-section > div > a{
+footer > section > div > a{
     font-size: 25px;
     text-decoration: none;
     color: black;
+}
+
+footer > section > div > p{
+    margin-block: 20px;
 }
