@@ -50,7 +50,11 @@ h3{
 }
 
 .manchete{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+strong{
+    font-weight: 900;
 }
 
 article{
@@ -117,7 +121,7 @@ main > h2{
     text-align: justify;
     padding: 0px;
     width: 1050px;
-    margin-bottom: 40px;
+    margin-bottom: 150px;
 }
 
 .conteudo{
@@ -125,7 +129,27 @@ main > h2{
     border-radius: 5px;
     padding-inline: 5px;
     font-size: 1.4em;
-    margin-bottom: 40px;
+}
+
+.conteudo>p{
+    font-style: italic;
+}
+
+.data{
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+.confiramais{
+    font-style: italic;
+    font-size: 0.6em;
+    text-align: right;
+}
+
+.confiramais>a{
+    text-decoration: none;
+    color: #0140e1;
 }
 
 footer{
