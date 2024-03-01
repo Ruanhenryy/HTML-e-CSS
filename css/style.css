@@ -19,7 +19,7 @@
 
 body{
     font-family: var(--fonte-padrão);
-    background-color: white;
+    background-color: rgba(173, 216, 230, 0.126);
     margin: auto;
     overflow-x: hidden; /*Para o site não ter rolagem horizontal*/
 }
@@ -47,6 +47,11 @@ h2{
 
 h3{
     font-size: 1.3em;
+}
+
+p{
+    font-style: italic;
+    text-indent: 50px;
 }
 
 .manchete{
@@ -82,8 +87,10 @@ header > nav > a:hover{
 }
 
 main{
+    background-color: white;
     margin: 15px;
     text-align: center;
+    border-top-left-radius: 15px;
     width: 1050px;
     margin-inline: auto;
     line-height: 2em; /*Para dar ou não espaçamento entre uma linha e outra*/
@@ -131,10 +138,6 @@ main > h2{
     font-size: 1.4em;
 }
 
-.conteudo>p{
-    font-style: italic;
-}
-
 .data{
     font-style: italic;
     font-size: 0.9em;
@@ -150,6 +153,21 @@ main > h2{
 .confiramais>a{
     text-decoration: none;
     color: #0140e1;
+}
+
+.div{
+    background-color: var(--cor4);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.484);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+div>ol{
+    list-style-type: '\2705';
+    list-style-position: inside;
+    columns: 2;
+    margin-block: 40px;
 }
 
 footer{
