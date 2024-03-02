@@ -31,6 +31,11 @@ header{
    border-bottom-right-radius: 15px;
 }
 
+mark{
+    border-radius: 10px;
+    padding: 10px;
+}
+
 h1{
     font-family: var(--fonte-destaque);
     text-align: center;
@@ -39,13 +44,35 @@ h1{
 
 h2{
     font-family: var(--fonte-destaque);
+    font-weight: 900;
     font-style: italic;
     font-size: 2.5em;
     padding-block: 5px;
     margin-block: 20px;
 }
 
+.margemh2{
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#h2noticiasdomomento{
+    background-color: lightgray;
+    font-size: 4em;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+#h2vejaemhardwares{
+    background-color: lightgray;
+    margin-left: 20px;
+}
+
 h3{
+    padding-left: 10px;
     font-size: 1.3em;
 }
 
@@ -59,6 +86,7 @@ p{
 }
 
 strong{
+    color: #0140e1;
     font-weight: 900;
 }
 
@@ -118,11 +146,6 @@ td#lista{
     padding-bottom: 20px;
 }
 
-main > h2{
-    background-color: var(--cor4);
-    border-radius: 10px;
-}
-
 .noticias-do-momento{
     background-color: white;
     text-align: justify;
@@ -155,18 +178,31 @@ main > h2{
     color: #0140e1;
 }
 
-.div{
+.confiraagora{
     background-color: var(--cor4);
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.484);
     border-radius: 10px;
     padding: 20px;
     font-size: 1.5em;
+    margin-bottom: 100px;
 }
 
-div>ol{
+#ulconfiraagora{
     list-style-type: '\2705';
     list-style-position: inside;
     columns: 2;
+    margin-block: 40px;
+}
+
+.vejaemhardwares{
+    padding: 20px;
+    font-size: 1.5em;
+    margin-bottom: 100px;
+}
+
+#ulvejaemhardwares{
+    list-style-type: '\2705';
+    list-style-position: inside;
     margin-block: 40px;
 }
 
