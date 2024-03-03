@@ -18,7 +18,6 @@
 }
 
 body{
-    display: flex;
     font-family: var(--fonte-padrão);
     background-color: rgba(173, 216, 230, 0.126);
     margin: auto;
