@@ -31,68 +31,6 @@ header{
    border-bottom-right-radius: 15px;
 }
 
-mark{
-    border-radius: 10px;
-    padding: 10px;
-}
-
-h1{
-    font-family: var(--fonte-destaque);
-    text-align: center;
-    font-size: 3em;
-}
-
-h2{
-    font-family: var(--fonte-destaque);
-    font-weight: 900;
-    font-style: italic;
-    font-size: 2.5em;
-    padding-block: 5px;
-    margin-block: 20px;
-}
-
-.margemh2{
-    background-color: lightgray;
-    padding: 15px;
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-
-#h2noticiasdomomento{
-    background-color: lightgray;
-    font-size: 4em;
-    padding: 20px;
-    margin-top: 100px;
-    margin-bottom: 80px;
-}
-
-#h2vejaemhardwares{
-    background-color: lightgray;
-    margin-left: 20px;
-}
-
-h3{
-    padding-left: 10px;
-    font-size: 1.3em;
-}
-
-p{
-    font-style: italic;
-    text-indent: 50px;
-}
-
-.manchete{
-    margin-bottom: 40px;
-}
-
-strong{
-    color: #0140e1;
-    font-weight: 900;
-}
-
-article{
-    text-align: justify;
-}
 nav{
     background-color: var(--cor2);
     padding: 20px;
@@ -117,11 +55,58 @@ header > nav > a:hover{
 main{
     background-color: white;
     margin: 15px;
-    text-align: center;
     border-top-left-radius: 15px;
     width: 1050px;
     margin-inline: auto;
     line-height: 2em; /*Para dar ou não espaçamento entre uma linha e outra*/
+}
+
+mark{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1{
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    font-size: 3em;
+}
+
+h2{
+    font-family: var(--fonte-destaque);
+    background-color: lightgray;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2.5em;
+    padding:20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h3{
+    margin-bottom: 40px;
+    padding-left: 10px;
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+p{
+    text-align: justify;
+    padding-inline: 10px;
+    font-size: 1.5em;
+    font-style: italic;
+    text-indent: 50px;
+}
+
+strong{
+    color: #0140e1;
+    font-weight: bolder;
+}
+
+#temporeal{
+    background-color: lightgray;
+    text-align: center;
 }
 
 .fundo-degrade{
@@ -146,19 +131,16 @@ td#lista{
     padding-bottom: 20px;
 }
 
-.noticias-do-momento{
-    background-color: white;
-    text-align: justify;
-    padding: 0px;
-    width: 1050px;
-    margin-bottom: 150px;
+#noticiasdomomento{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    font-size: 1.5em;
 }
 
-.conteudo{
+.vagasdeprofissionais{
     text-align: justify;
-    border-radius: 5px;
-    padding-inline: 5px;
-    font-size: 1.4em;
+    margin-bottom: 150px;
 }
 
 .data{
@@ -169,7 +151,7 @@ td#lista{
 
 .confiramais{
     font-style: italic;
-    font-size: 0.6em;
+    font-size: 1em;
     text-align: right;
 }
 
@@ -178,16 +160,16 @@ td#lista{
     color: #0140e1;
 }
 
-.confiraagora{
+#cursosemalta{
     background-color: var(--cor4);
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.484);
+    font-size: 1em;
     border-radius: 10px;
     padding: 20px;
-    font-size: 1.5em;
     margin-bottom: 100px;
 }
 
-#ulconfiraagora{
+#ulcursosemalta{
     list-style-type: '\2705';
     list-style-position: inside;
     columns: 2;
@@ -196,7 +178,6 @@ td#lista{
 
 .vejaemhardwares{
     padding: 20px;
-    font-size: 1.5em;
     margin-bottom: 100px;
 }
 
@@ -204,6 +185,12 @@ td#lista{
     list-style-type: '\2705';
     list-style-position: inside;
     margin-block: 40px;
+}
+
+.vejaemsoftwares{
+    padding: 20px;
+    margin-bottom: 100px;
+
 }
 
 footer{
